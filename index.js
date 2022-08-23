@@ -14,7 +14,7 @@ function roll(){
     document.querySelector("h1").textContent = "Player 1 Wins !";  //still text is not emphasised as we are using textContent
   }
   else if (randomNumber2 > randomNumber1) {
-    document.querySelector("h1").innerHTML = "<em>Player 2 Wins !</em>";  //now text is emphasised as innerHTML reads the html inside " "
+    document.querySelector("h1").innerHTML = "Player 2 Wins !";  //now text is emphasised as innerHTML reads the html inside " "
   }
   else{
     document.querySelector("h1").innerHTML = "It's a Draw !";
